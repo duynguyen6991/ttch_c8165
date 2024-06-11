@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TTCHC8165]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TenTrangBi(failed)">
+    <classes>
+      <class name="TTCH_C8165_prod.CAU_HINH.DM_TenTrangBi">
+        <methods>
+          <include name="afterTest"/>
+          <include name="Setup"/>
+          <include name="CreateLoaiTrangBi"/>
+        </methods>
+      </class> <!-- TTCH_C8165_prod.CAU_HINH.DM_TenTrangBi -->
+    </classes>
+  </test> <!-- TenTrangBi(failed) -->
+</suite> <!-- Failed suite [TTCHC8165] -->

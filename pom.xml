@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TTCHC8165" verbose="1">
+    <test name="LoaiTrangBi">
+        <classes>
+            <class name="Practice.Alert_Handle"></class>
+        </classes>
+    </test>
+</suite>
