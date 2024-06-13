@@ -18,7 +18,11 @@ public class setUp {
     @BeforeTest
     public void Setup() throws InterruptedException
     {
-        System.setProperty("webdriver.edge.driver","D:\\IntelliJ\\selenium_java\\browserDriver\\edgedriver_win32\\msedgedriver.exe");
+        String projectPath = System.getProperty("user.dir");
+        //String driverPath = projectPath + "\\browserDriver\\edgedriver_win32\\msedgedriver.exe";
+        String driverPath = projectPath + java.io.File.separator + "browserDriver" + java.io.File.separator + "edgedriver_win32" + java.io.File.separator + "msedgedriver.exe";
+
+        //System.setProperty("webdriver.edge.driver","D:\\IntelliJ\\selenium_java\\browserDriver\\edgedriver_win32\\msedgedriver.exe");
         driver = new EdgeDriver();
         driver.get("https://ttch165-portal.gtelots.dev/");
         //Login
